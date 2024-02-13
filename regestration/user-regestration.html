@@ -10,42 +10,39 @@
     <header>
       <div class="wrapper">
         <div class="container">
+          <form action="">
           <ul class="registration">
-            <li class="registration__text">
-              <!-- <h3>Пожалуйста, войдите <br /></h3> -->
-            </li>
-            <li class="text-sign-user">
-              <input
-                class="registration_list"
-                type="name"
-                placeholder="Имя пользователя"
-              />
-            </li>
-
-            <li class="text-sign-user">
-              <input
-                class="registration_list"
-                type="email"
-                placeholder="Электроная почта"
-              />
-            </li>
-            <li>
-              <input
-                class="registration_list"
-                type="password"
-                placeholder="Пароль"
-              />
-            </li>
-            <li class="registration__remember">
-              <input type="checkbox" />
-              <p class="registration__remember--text">Запомнить меня</p>
-            </li>
-            <li class="registration__sign">
-              <button class="btn-sign">Зарегистроваться</button>
-            </li>
+              <li class="text-sign-user">
+                <input
+                  class="name"
+                  name="name"
+                  type="name"
+                  placeholder="Имя пользователя"
+                />
+              </li>
+              <li class="text-sign-user">
+                <input
+                  class="email"
+                  name="email"
+                  type="email"
+                  placeholder="Электроная почта"
+                />
+              </li>
+              <li>
+                <input class="password" name="password" type="password" placeholder="Пароль" />
+              </li>
+              <li class="registration__remember">
+                <input type="checkbox" />
+                <p class="registration__remember--text">Запомнить меня</p>
+              </li>
+              <li class="registration__sign">
+                <button class="btn-sign" type="submit">Зарегистроваться</button>
+              </li>
+            </form>
           </ul>
         </div>
       </div>
     </header>
+    <script src="/regestration/main.js"></script>
   </body>
 </html>
