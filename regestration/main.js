@@ -8,7 +8,7 @@ function addPost() {
   const form = document.querySelector("form");
 
   let data = {
-    name: form.querySelector("[name='name']").value,
+    login: form.querySelector("[name='login']").value,
     email: form.querySelector("[name='email']").value,
     password: form.querySelector("[name= 'password']").value,
   };
