@@ -29,7 +29,14 @@ li {
   list-style-type: none;
 }
 
-.registration_list {
+.email {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.password {
   border: 1px solid;
   border-radius: 5px;
   padding: 15px 15px;

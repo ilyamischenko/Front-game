@@ -10,34 +10,38 @@
     <header>
       <div class="wrapper">
         <div class="container">
-          <ul class="registration">
-            <li class="registration__text">
-              <!-- <h3>Пожалуйста, войдите <br /></h3> -->
-            </li>
-            <li class="text-sign-user">
-              <input
-                class="registration_list"
-                type="email"
-                placeholder="Электроная почта"
-              />
-            </li>
-            <li>
-              <input
-                class="registration_list"
-                type="password"
-                placeholder="Пароль"
-              />
-            </li>
-            <li class="registration__remember">
-              <input type="checkbox" />
-              <p class="registration__remember--text">Запомнить меня</p>
-            </li>
-            <li class="registration__sign">
-              <button class="btn-sign">Авторизоваться</button>
-            </li>
-          </ul>
+          <form action="">
+            <ul class="registration">
+              <li class="registration__text"></li>
+              <li class="text-sign-user">
+                <input
+                  name="email"
+                  class="email"
+                  type="email"
+                  placeholder="Электроная почта"
+                />
+              </li>
+              <li>
+                <input
+                  name="password"
+                  class="password"
+                  type="password"
+                  placeholder="Пароль"
+                />
+              </li>
+              <li class="registration__remember">
+                <input type="checkbox" />
+                <p class="registration__remember--text">Запомнить меня</p>
+              </li>
+              <li class="registration__sign">
+                <button class="btn-sign" type="submit">Авторизоваться</button>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
     </header>
+
+    <script src="/user-sign/main-sing.js"></script>
   </body>
 </html>
